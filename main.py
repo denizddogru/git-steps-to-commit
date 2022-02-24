@@ -20,9 +20,11 @@ def git_steps():
     print(" 2. git status -> view the changed files")
     print(" 3. git commit -m ''write here the revisions made in your code briefly'' ->commits the files that have been added and ")
     print(" creates a new revision with a log... ")
-    print(" 4. git push -u origin master -> pushes your changes to the remote repository.   NOTE: sometimes you need a force push")
+    print(" 4. git push -u origin master -> pushes your changes to the remote repository.   NOTE: sometimes you need a force push although not recommended")
     print()
-    print("*********** PULL REQUESTS **************")
+    print("*********** Reminders **************")
+    print("git push origin HEAD:master -> HEAD points to the top of the current branch. git can obtain the branch name from that.")
+    print("My branch was not right -> git branch -> git branch -M master -> makes the main branch master")
     
 
 if __name__ == "__main__":
