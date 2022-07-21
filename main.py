@@ -7,6 +7,9 @@ def git_steps():
     print("Follow the steps for pushing a project to github.")
     print("1.Create a repo")
     print("2.git init -> initialize an empty repository including your local files ")
+    // Note: if you haven't synched the remote to your PC, you need to 
+    // git pull or git pull --rebase
+    // and then continue with the steps
     print("3. git add . -> adds all the files in the current folder queue, not yet committed")
     print("4. git status -> view all the files which are going to be staged in the first commit")
     print("5. git commit -m ''your message'' -> adds the changes to the local repository ")
